@@ -13,6 +13,7 @@ print (aln)
 calculator = DistanceCalculator('identity')
 dm = calculator.get_distance(aln)
 
+
 # Print the distance Matrix
 print('\nDistance Matrix\n===================')
 print(dm)
